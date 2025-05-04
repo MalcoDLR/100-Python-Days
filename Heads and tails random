@@ -1,0 +1,8 @@
+import random
+
+print("What do you choose? heads or tails")
+random_heads_and_tails = random.randint(0, 1)
+if random_heads_and_tails == 0:
+    print("Heads")
+else:
+    print("Tails")
